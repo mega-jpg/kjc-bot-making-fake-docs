@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Generator - Fake Docs</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>👻 Fake Document Generator</h1>
+        <p class="subtitle">Generate realistic passport documents for testing purposes</p>
+        
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('docs-generator')">👻 Document Generator</button>
+        </div>
+
+        <div id="docs-generator" class="tab-content active">
+            <h2>🆔 Passport Document Generator</h2>
+            <div class="form-group">
+                <p class="description">Click the button below to generate random passport documents</p>
+                
+                <button type="button" class="btn" id="make-docs-btn" onclick="makeDocs()">
+                    🔨 Make Docs
+                </button>
+            </div>
+        </div>
+        
+        <div class="api-info" id="docs-result">
+            <p><em>KJC Document Services - For Testing Only</em></p>
+        </div>
+    </div>
+    
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
